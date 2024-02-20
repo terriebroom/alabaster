@@ -438,7 +438,11 @@ a:hover {
 }
 
 /* dropdown */
-.dropdown:hover 
+.dropdown:hover {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #D2B48C;
+  color: #73513d;
+}
 .dropdown-content {
   display: block; /* behaviour of the element */
 }
