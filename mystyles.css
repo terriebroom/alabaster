@@ -28,7 +28,7 @@ html, body {
 }
 .hero-image { 
     height: 50%; 
-    background: url("../images/alabaster_pour.jpg");
+    background: src=("images/garden.jpg" alt="Garden.");
     background-size: cover;
     min-height: 10%;
     z-index: 2; /* z-index refers to property of stacked element. */
