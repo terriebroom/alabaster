@@ -24,7 +24,7 @@ html, body {
 
 /* logo image */ 
 .logo img {
-    height: 60px;  
+    height: 58px;  
 }
 .hero-image { 
     height: 100%; 
@@ -35,8 +35,8 @@ html, body {
 }
 /* slogan */
 .slogan, .h1, .p {
-  color: #ffffff;
-  text-shadow: 0 0 5px #000000;  
+  color: #f5e9dc;
+  text-shadow: 0 0 5px #73513d;  
   position: absolute; 
   text-align: center; 
   top: 50%; 
@@ -161,8 +161,8 @@ footer { /*footer*/
     padding: 17px;  
     width: 100%; 
 
-    background-color: #85B4B4;/*Footer background colour*/
-    color: #ffffff; 
+    background-color: #d2b48c;/*Footer background colour*/
+    color: #593402; 
     font-family: 'Helvetica';
     font-size: 1em;
     text-align: center; 
@@ -352,7 +352,7 @@ div.who {
 
 /* top nav class */
 .topnav {
-    background-color: #ffffff;
+    background-color: #f5e9dc;
     overflow: hidden;
     padding: 4px; 
 }
@@ -361,7 +361,7 @@ div.who {
 .topnav a {
     float: right; 
     display: block; /* behaviour of the element */
-    color: #000000;
+    color: #73513d;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -371,7 +371,7 @@ div.who {
 /* active link */
 .active {
     background-color: #85B4B4;
-    color: #000000;
+    color: #73513d;
 }
 
 /* dropdown icon */
@@ -403,7 +403,7 @@ div.who {
   font-family: 'Helvetica', sans-serif;
   display: none; /* behaviour of the element */
   position: absolute;
-  background-color: #ffffff;
+  background-color: #f5e9dc;
   min-width: 173px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1; /* z-index refers to property of stacked element. */
@@ -413,7 +413,7 @@ div.who {
 .dropdown-content a {
   font-family: 'Helvetica', sans-serif;
   float: none;
-  color: #000000;
+  color: #73513d;
   padding: 12px 16px;
   text-decoration: none;
   display: block; /* behaviour of the element */
@@ -425,7 +425,7 @@ div.who {
 .dropdown:hover 
 .dropbtn {
     font-family: 'Helvetica', sans-serif;
-    background-color: #85B4B4;
+    background-color: #bfac97;
     color: white;
 }
 
@@ -433,8 +433,8 @@ div.who {
 .dropdown-content 
 a:hover {
   font-family: 'Helvetica', sans-serif;
-  background-color: #c2d6d6;
-  color: #000000;
+  background-color: #D2B48C;
+  color: #73513d;
 }
 
 /* dropdown */
