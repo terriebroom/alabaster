@@ -1,0 +1,483 @@
+@charset "UTF-8";
+/* Alabaster Incense. 2024-02-19 */
+* {
+  /* box sizing sets the total width and height of the page. */
+  /* border box includes content, border and padding of the width and height properties.  */
+  box-sizing: border-box; 
+}
+
+/* Body element */
+html, body {
+    position: absolute;
+    height: 100%; 
+    width: 100%; 
+    overflow-x: hidden; /* specifics to clip content, add a scroll bar or display/hide overflow content (extra space). */
+    font-family: 'Helvetica', sans-serif;
+    scroll-behavior: smooth;
+}
+/* logo class */
+.logo {
+    position: absolute; 
+    margin-left: 0px; 
+    margin-top: 0px; 
+}
+
+/* logo image */ 
+.logo img {
+    height: auto;  
+}
+.hero-image { 
+    height: 100%; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/alabaster_perfume.jpg");
+    background-size: cover;
+    min-height: 10%;
+    z-index: 2; /* z-index refers to property of stacked element. */
+}
+/* slogan */
+.slogan, .h1, .p {
+  color: #ffffff;
+  text-shadow: 0 0 5px #000000;  
+  position: absolute; 
+  text-align: center; 
+  top: 50%; 
+  left: 50%;  
+  width: 100%; 
+  transform: translate(-50%, -50%); /* Source w3schools. */
+  z-index: 3; /* z-index refers to property of stacked element. */
+}
+
+/* h1 element located in slogan class */
+.slogan h1 {
+  color: inherit; 
+  font-size: 6em;  
+}
+
+/* media query for slogan .h1 */
+@media all and (min-width: 414px) and (max-width: 767px) {
+  .slogan h1 {
+    padding-top: 25%; 
+    font-size: 3.2em; 
+  }
+}
+
+@media all and (min-width: 414px) and (max-width: 900px) {
+  .slogan h1 {
+    padding-top: 20%; 
+    font-size: 3.2em; 
+  }
+}
+
+/* paragraph element located in slogan class */
+.slogan p {
+    font-size: 1.5em; 
+    font-style: italic; 
+}
+
+/* media query for slogan paragraph element */
+@media all and (min-width: 414px) and (max-width: 767px) {
+  .slogan p {
+    font-size: 1.2em; 
+  }
+}
+
+/* media query for slogan paragraph element */
+@media all and (min-width: 414px) and (max-width: 900px) {
+  .slogan p {
+    font-size: 1.2em; 
+  }
+}
+/* button arrow class */ 
+.button-arrow { 
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -80%); /* Source w3schools. */
+}
+
+/* media query for button arrow class */ 
+@media all and (min-width: 414px) and (max-width: 767px) {
+    .button-arrow {
+      position: absolute; 
+      padding-top: 25%;
+      top: 70%;
+      left: 50%;  
+      transform: translate(-50%, -70%); /* Source w3schools. */
+    }
+}
+
+/* media query for button arrow class */ 
+@media all and (min-width: 414px) and (max-width: 900px) {
+  .button-arrow {
+    position: absolute; 
+    padding-top: 25%;
+    top: 72%;
+    left: 50%;  
+    transform: translate(-50%, -72%); /* Source w3schools. */
+  }
+}
+
+/* button arrow img */ 
+.button-arrow img {
+    position: inherit; 
+    height: 100px; 
+}
+
+/* media query for button arrow img */ 
+@media all and (min-width: 414px) and (max-width: 767px) {
+  .button-arrow img {
+      position: inherit; 
+      height: 80px; 
+  }
+}
+
+/* media query for button arrow img */ 
+@media all and (min-width: 414px) and (max-width: 900px) {
+  .button-arrow img {
+      position: inherit; 
+      height: 70px; 
+  }
+}
+main {
+min-height: 100vh;
+}
+
+/* Footer style */
+
+/* footer container */
+.footer-container {
+    position: relative;
+    min-width: 100vh;
+    padding-top: 190px;
+    display: block; /* behaviour of the element */
+}
+
+/* footer */
+footer { /*footer*/
+    position: absolute; 
+    margin: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    padding: 17px;  
+    width: 100%; 
+
+    background-color: #85B4B4;/*Footer background colour*/
+    color: #ffffff; 
+    font-family: 'Helvetica';
+    font-size: 1em;
+    text-align: center; 
+}
+
+/* footer images (pngs) */
+footer img {
+    height: 25px; 
+}
+
+/* footer responsive media query */
+@media all and (max-width: 580px) {
+  .footer-container {
+    position: relative;
+    top: 0%;
+    left: -10%;  
+    transform: translate(-10%, 0%); /* Source w3schools. */
+  }
+}
+.hide-icon {
+  visibility:hidden;
+}
+
+.hide-list-point {
+  list-style: none;
+}
+
+.location-name {
+  font-weight: bold;
+}
+
+.services-list, .loc-list {
+  display: inline-block;
+}
+
+.padding {
+  padding:25px 16px;
+}
+
+.rw-row-padding{
+  padding:0 8px
+  }
+/*Container holds teams section*/
+.container {
+  padding:128px 16px;
+}
+
+/*Make images and bio appear in column form*/
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border:5px outset silver;
+}
+
+.w3-sidebar.w3-bar-block.w3-black.w3-card.w3-animate-left.w3-hide-medium.w3-hide-large {
+  display:none;
+}
+
+.w3-col.l3.m6.w3-margin-bottom {
+  height: 200px;
+}
+.w3-row-padding {
+  margin-top:64px;
+  margin-bottom:200px;
+  
+}
+/*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
+div.card {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 0 8px;
+  display: block;
+  margin-bottom: -200px;
+}
+div.card1 {
+  background-color: #85B4B4;
+  height: 500px;
+} 
+
+div.card2 {
+  width: 100%;
+  height: 100%;
+}
+/*Gaps provide equal spacing for each card*/
+div.cardgap1 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 50px;
+}
+div.cardgap2 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 30px;
+}
+div.cardgap3 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 100px;
+}
+div.cardgap4 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 98px;
+}
+/*This gives the heading for each section of the teams and projects pages their own style*/
+.team {
+  font-family: 'Helvetica', sans-serif;
+}
+/*This contains the gallery section contents*/
+.textalign {
+  text-align: center;
+  border: 3px solid black;
+  background-color: #85B4B4;
+  font-family: 'Helvetica', sans-serif;
+  margin-top:64px;
+  margin-bottom:64px;
+}
+/*To give the images their dimensions and positions*/
+div.map {
+  margin: 5px;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+/*To give the images animations and appearance*/
+div.map:hover {
+  border: 5px solid #85B4B4;
+}
+
+div.map img {
+  width: 100%;
+  
+}
+ div.map img:hover {
+    transform: scaleX(+1);
+  }
+  div.map img {
+  border-radius: 8px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* Two image container */
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 8px;
+  display: block;
+  
+}
+.row {
+  padding: 0 16px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Main css for the text alignment in the about page, 8 Dec 2021 */
+div.who {
+  text-align: left;
+  font-weight: bold;
+  width: 75%;
+  display: block;
+  line-height: 2.0; 
+  margin: 5%;
+  padding-left: 12%;
+  padding-top: 0.5%;
+  padding-right: 12%;
+  background: rgba(210,248,210, 0.1);
+  background-position:center;  
+}  
+
+/* top nav class */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 4px; 
+}
+
+/* top nav a link */
+.topnav a {
+    float: right; 
+    display: block; /* behaviour of the element */
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* active link */
+.active {
+    background-color: #85B4B4;
+    color: #000000;
+}
+
+/* dropdown icon */
+.topnav .icon {
+    display: none; /* behaviour of the element */
+}
+
+/* dropdown */
+.dropdown {
+    float: right;
+    display: block; /* behaviour of the element */
+    overflow: hidden;
+}
+
+/* dropdown button */
+.dropdown .dropbtn {
+    font-size: 15px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* dropdown content */
+.dropdown-content {
+  font-family: 'Helvetica', sans-serif;
+  display: none; /* behaviour of the element */
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 173px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; /* z-index refers to property of stacked element. */
+}
+
+/* dropdown content */
+.dropdown-content a {
+  font-family: 'Helvetica', sans-serif;
+  float: none;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; /* behaviour of the element */
+  text-align: left;
+}
+
+/* dropdown hover */
+.topnav a:hover, 
+.dropdown:hover 
+.dropbtn {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #85B4B4;
+    color: white;
+}
+
+/* dropdown content */
+.dropdown-content 
+a:hover {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #c2d6d6;
+  color: #000000;
+}
+
+/* dropdown */
+.dropdown:hover 
+.dropdown-content {
+  display: block; /* behaviour of the element */
+}
+
+/* top nav responsive media query */
+@media screen and (max-width: 905px) {
+.topnav a:not(:first-child), .dropdown .dropbtn {
+  display: none; /* behaviour of the element */
+}
+
+/* top nav icon */
+.topnav a.icon {
+  float: right;
+  display: block; /* behaviour of the element */
+}
+}
+
+/* top nav responsive media query */
+@media screen and (max-width: 905px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* top nav responsive */
+.topnav.responsive a {
+  float: none;
+  display: block; /* behaviour of the element */
+  text-align: center;
+}
+
+/* top nav responsive */
+.topnav.responsive .dropdown {float: none;}
+.topnav.responsive .dropdown-content {position: relative;}
+.topnav.responsive .dropdown .dropbtn {
+  display: block; /* behaviour of the element */
+  width: 100%;
+  text-align: center;
+}
+}
