@@ -335,7 +335,7 @@ div.desc {
   display: table;
 }
 
-/* Main css for the text alignment in the about page, 8 Dec 2021 */
+/* Main css for the text alignment in the about page */
 div.who {
   text-align: left;
   font-weight: bold;
@@ -438,11 +438,7 @@ a:hover {
 }
 
 /* dropdown */
-.dropdown:hover {
-  font-family: 'Helvetica', sans-serif;
-  background-color: #D2B48C;
-  color: #73513d;
-}
+.dropdown:hover
 .dropdown-content {
   display: block; /* behaviour of the element */
 }
