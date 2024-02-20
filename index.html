@@ -1,55 +1,148 @@
 <!DOCTYPE html>
-<!-- index.html -->
-<!-- Authors: Alabaster -->
-<!-- Date Created: 2024-02-19 -->
-<!-- Alabaster Blog called Incense. I was thinking about calling it "Substance" but that might come off as the wrong message -->
-<html lang="en">
+  <!-- index.html -->
+  <!-- Authors: Alabaster -->
+  <!-- Date Created: 2024-02-19 -->
+  <!-- Alabaster Blog called Incense. I was thinking about calling it "Substance" but that might come off as the wrong message -->
+  <html lang="en">
+    <!-- header -->
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="Image/jpg" href="img/nobkgd_5in.png">
-        <title>Incense &#124; Alabaster</title>
-        <link rel="stylesheet" href="style.css">
+      <title>Incense &#124; Alabaster</title>
+      <link rel="icon" type="image/png" href="images/favicon.png"/>
+      <!-- html unicode --> 
+      <meta charset="UTF-8">
+      <!-- viewport --> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- w3school style sheet link --> 
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!-- google fonts - specifically to Raleway font --> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <!-- icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- style sheet link --> 
+      <link rel="stylesheet" href="CSS/mystyles.css">
     </head>
+    <!-- end of head -->
+    
+    <!-- body -->   
     <body>
-        <!-- Navigation Bar -->
-        <nav>
-            <input id="nav-toggle" type="checkbox">
-            <div class="logo"><strong>Alabaster</strong></div>
-			<ul class="links">
-				<li><a href="index.html">Home</a><li>
-				<li><a href="ideas.html">Ideas</a><li>
-				<li><a href="website.html">Main Website</a><li>
-			</ul>
-			<label for="nav-toggle" class="icon-burger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </label>
-        
-        </nav>
-         <!--banner under fixed nav bar-->
-        <div class="container"> 
-            <img class="banner" src="img/alabaster_perfume.jpg" alt="Alabaster Banner">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#ideas">ideas</a></li>
-                <li><a href="#website">main website</a></li>
-            </ul>
-        </nav>
+      <a id="top"></a>
+      <!-- class attribute, groups all elements in this class together. -->
+      <div class="logo"> 
+        <!-- a href, links user to the index.html page when the logo is clicked on. -->
+        <a href="index.html"><img src="images/alabaster_flask.jpg" alt="logo"></a> 
+      </div>
+      <!-- end of logo class -->
+      
+      <!-- class attribute, groups all elements in this class together. -->
+      <!-- id refers to the unique page and applies to that single element (myTopnav). -->
+      <div class="topnav" id="myTopnav"> 
+         
+      <!-- class attribute, groups all elements in this class together. -->  
+      <div class="dropdown"> 
+          <!-- drop down button for Our Company. -->
+          <!-- i class refers to icons used in the dropdown. -->
+          <button class="dropbtn"><i class="fa fa-building-o"></i> OUR COMPANY 
+          <i class="fa fa-caret-down"></i>
+      </button>
+      <!-- end of first button class -->
 
-        <!-- Main Content -->
-        <main>
-            <section>
-                    <h1>Welcome to Incense!</h1>
-                    <p>The term "incense" was derived from "substance", which is faith. Here you will find all updates on the products and services offered by our parent company, Alabaster.</p>
-            </section>
-        </main>
-        <!-- Footer -->
+      <!-- class attribute, groups all elements in this class together. -->  
+      <!-- a href, links user to the multiple pages -->
+      <!-- drop down content -->
+      <!-- i class refers to icons used in the dropdown. -->  
+      <div class="dropdown-content">
+          <a href="ideas.html"><i class="fa fa-info-circle"></i> IDEAS</a>
+      </div>
+      </div>
+      <!-- end of first dropdown content -->
+
+      <!-- class attribute, groups all elements in this class together. -->    
+      <div class="dropdown">
+          <!-- drop down button -->
+          <!-- i class refers to icons used in the dropdown -->
+          <button class="dropbtn"><i class="fa fa-briefcase"></i> OUR WORK
+          <i class="fa fa-caret-down"></i>
+      </button>
+      <!-- end of second button class -->
+        
+      <!-- class attribute, groups all elements in this class together. -->  
+      <!-- a href, links user to the multiple pages -->
+      <!-- drop down content -->
+      <!-- i class refers to icons used in the dropdown -->    
+      <div class="dropdown-content">
+          <a href="services.html"><i class="fa fa-th"></i> SERVICES</a>
+          <a href="projects.html"><i class="fa fa-image"></i> GALLERY</a> 
+      </div>
+      </div> 
+      <!-- end of second dropdown content -->   
+
+      <!-- a href, links user to the pages of Locations and Resources --> 
+      <!-- i class refers to icons used in the nav -->   
+      <a href="locations.html"><i class="fa fa-map-marker"></i> LOCATIONS</a>
+      <a href="resources.html"><i class="fa fa-book"></i> RESOURCES</a>
+        
+      <!-- void in JavaScript is an operator that evaluates the expression and return the undefined. -->  
+      <!-- onlcick executes Javascript when the button is clicked. -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <!-- end div for top nav bar -->     
+      <!-- class attribute, groups all elements in this class together. -->  
+      <div class="hero-image">
+      <div class="slogan">
+          <!-- h1 tag for the slogan -->
+          <h1>Incense</h1>
+          <!-- paragraph tag for the slogan -->
+          <p>"Faith is the substance of things unseen."<p>
+      </div> 
+      <!-- class attribute, groups all elements in this class together. -->    
+      <div class="button-arrow">
+          <a href="#ideas"><img src="images/arrowbutton.png" alt="arrow button"></a>
+      </div>
+      </div> 
+      <!-- end div for hero image -->
+      
+      <!-- class attribute, groups all elements in this class together. -->
+      <!-- id refers to the unique page and applies to that single element -->
+      <div class="w3-container-about" id="ideas">
+      <!-- class attribute, groups all elements in this class together. -->  
+      <div class="w3-row">
+      <!-- class attribute, groups all elements in this class together. -->  
+      <div class="w3-col m6">
+          <h1>Welcome to Incense!</h1>
+          <p>The term "incense" was derived from "substance", which is faith. Here you will find all updates on the products and services offered by our parent company, Alabaster.</p>
+       <!-- a href, the button links to the ideas.html page. --> 
+       <p><a href="ideas.html" class="button-about">Learn More about us</a></p>
+      </div>
+      <!-- class attribute, groups all elements in this class together. -->   
+      <div class="w3-col m6">
+          <!-- img class and refers to the ideas image. -->
+          <img class="w3-image w3-large" src="images/aboutus.jpg" alt="People sitting around a table.">
+      </div>
+      </div>
+      </div>
+      <!-- end div for the ideas section for the index -->   
+      <!-- class attribute, groups all elements in this class together. -->
+     </div>
+      <!-- end div for the services section for the index -->   
+      <!-- class attribute, groups all elements in this class together. --> 
+      <div class="footer-container">
+        <!-- footer. -->  
         <footer>
-            <p id="footer">Copyright &#169; 2024 Alabaster. All Rights Reserved.</p>
+            <p>
+            <!-- a href, when clicked on - user will be brought to linkedin.com -->  
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin"></a>
+            <p><a id="topbutton" href="#top">Back to Top</a></p>
+            <!-- copyright. -->  
+            <p>Copyright &#169; Alabaster 2024.</p>
         </footer>
+        <!-- end of the footer. -->    
+      </div> 
+      <!-- end div for the footer -->
+      
+      <!-- Calling Javascript file added -->
+      <script src="JS/javascript.js"></script>
+
     </body>
-</html>
+    <!-- end of body -->    
+  </html>
+  <!-- end of html --> 
