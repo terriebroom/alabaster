@@ -63,10 +63,10 @@ html, body {
     background-colour: #483C32;
 }
 @keyframes move-words {
-  50% {
+  20% {
     left: 100%;
   }
-  50% {
+  100% {
     right: 100%;
   }
 }
