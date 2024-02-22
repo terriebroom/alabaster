@@ -26,7 +26,8 @@ html, body {
 
 /* logo image */ 
 .logo img {
-    height: 58px;  
+    height: 58px; 
+    opacity: .4;
 }
 .hero-image { 
     height: 100%; 
