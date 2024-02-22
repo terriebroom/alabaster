@@ -58,7 +58,7 @@ html, body {
   /*animated words for ad space*/
   .animation {
     position: relative;
-    background: #98817B;
+    background: #ccbfbc;
     color: #674C47;
     padding: .25em;
     animation: move-words 20s linear infinite;
