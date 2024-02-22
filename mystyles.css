@@ -55,6 +55,13 @@ html, body {
   font-size: 6em;  
 }
 
+  /*animated words for ad space*/
+  .animation {
+    position: relative;
+    animation: move-words 20s linear infinite;
+    margin: 0;
+}
+
 /* media query for slogan .h1 */
 @media all and (min-width: 414px) and (max-width: 767px) {
   .slogan h1 {
