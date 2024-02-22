@@ -69,6 +69,7 @@ html, body {
   100% {
     left: -20%;
   }
+  background-colour: #483C32;
 }
 
 /* media query for slogan .h1 */
