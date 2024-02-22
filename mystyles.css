@@ -64,7 +64,7 @@ html, body {
 }
 @keyframes move-words {
   0% {
-    left: 50%;
+    left: 10%;
   }
   100% {
     left: -50%;
