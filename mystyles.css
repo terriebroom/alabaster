@@ -57,10 +57,18 @@ html, body {
 
   /*animated words for ad space*/
   .animation {
-    position: left;
+    position: relative;
     animation: move-words 20s linear infinite;
     margin: 0;
     background-colour: #483C32;
+}
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 /* media query for slogan .h1 */
