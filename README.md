@@ -26,3 +26,4 @@ Nav bar:
 
 Home page:
 - [ ] Links to content
+- [ ] make photos in gallery clickable and large on click 
