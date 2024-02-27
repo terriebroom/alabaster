@@ -3,7 +3,7 @@
   <html lang="en">
     <!-- beginning of header -->
     <head>
-  
+
       <title>The Morrison Foundation</title>
 
       <link rel="icon" type="image/png" href="images/alabasterflask2.jpg"/>
@@ -20,10 +20,10 @@
       <link rel="stylesheet" href="mystyles.css">
     </head>
     <!-- end of head -->
-    
+
     <!-- beginning of body -->   
     <body>
-     
+
       <a id="top"></a>
       <!-- class attribute, groups all elements in this class together. -->
       <div class="logo"> 
@@ -31,42 +31,53 @@
         <a href="index.html"><img src="images/alabasterflask2" alt="home"></a> 
       </div>
       <!-- end of logo class -->
-      
+
       <!-- class attribute, groups all elements in this class together. -->
       <!-- id refers to the unique page and applies to that single element (myTopnav). -->
       <div class="topnav" id="myTopnav"> 
+
+      <!-- class attribute, groups all elements in this class together. -->  
+      <div class="dropdown"> 
+          <!-- drop down button for Our Company. -->
+          <!-- i class refers to icons used in the dropdown. -->
+          <button class="dropbtn"><i class="fa fa-building-o"></i>ABOUT US 
+          <i class="fa fa-caret-down"></i>
+      </button>
+      <!-- end of first button class -->
+
       <!-- class attribute, groups all elements in this class together. -->  
       </div>
       <!-- end of first dropdown content -->
-      <!-- a href, links user to the pages --> 
-      <!-- i class refers to icons used in the nav -->   
-      <a href="contact.html"><i class="fa fa-book"></i> CONTACT US</a>
-      <a href="about.html"><i class="fa fa-map-marker"></i> ABOUT US</a>
-      <a href="kitchen.html"><i class="fa fa-map-marker"></i> KITCHEN</a>
-       <!-- class attribute, groups all elements in this class together. -->    
+
+      <!-- class attribute, groups all elements in this class together. -->    
       <div class="dropdown">
           <!-- drop down button for Our Work -->
           <!-- i class refers to icons used in the dropdown -->
-          <button class="dropbtn"><i class="fa fa-briefcase"></i> RESOURCES
+          <button class="dropbtn"><i class="fa fa-briefcase"></i>RESOURCES
           <i class="fa fa-caret-down"></i>
       </button>
       <!-- end of second button class -->
-        
+
       <!-- class attribute, groups all elements in this class together. -->    
       <div class="dropdown-content">
-          <a href="services.html"><i class="fa fa-th"></i> OUR SERVICES</a>
-          <a href="products.html"><i class="fa fa-image"></i> OUR PRODUCTS</a>
-          <a href="gallery.html"><i class="fa fa-image"></i> GALLERY</a>
+          <a href="services.html"><i class="fa fa-th"></i>OUR SERVICES</a>
+          <a href="projects.html"><i class="fa fa-image"></i>OUR PRODUCTS</a>
+          <a href="projects.html"><i class="fa fa-image"></i>GALLERY</a>
       </div>
       </div> 
-      <!-- end of second dropdown content -->
-        
+      <!-- end of second dropdown content -->   
+
+      <!-- a href, links user to the pages of Locations and Resources --> 
+      <!-- i class refers to icons used in the nav -->   
+      <a href="main.html"><i class="fa fa-map-marker"></i>KITCHEN</a>
+      <a href="resources.html"><i class="fa fa-book"></i>CONTACT US</a>
+
       <!-- void in JavaScript is an operator that evaluates the expression and return the undefined. -->  
       <!-- onlcick executes Javascript when the button is clicked. -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
       <!-- end div for top nav bar -->
-    
+
       <!-- class attribute, groups all elements in this class together. -->  
       <div class="hero-image">
       <div class="slogan">
@@ -82,10 +93,12 @@
       </div>
       </div> 
       <!-- end div for hero image -->
-  
- <div class="who" id="foundation">
-  
-</div>
+
+ <div class="who" id="ideas">
+
+</div>      
+<div class="cont"><input type="button" value="Contact Us" onclick="window.location.href='ideas.html';"/></div>
+
       <!-- class attribute, groups all elements in this class together. --> 
       <div class="footer-container">
         <!-- beginning of the footer. -->  
