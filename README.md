@@ -25,5 +25,7 @@ Nav bar:
 - [x] About us
 
 Home page:
-- [x] Links to content
-- [x] make photos in gallery clickable and large on click 
+- [x] Links to content 
+
+Gallery page:
+- [ ] make photos in gallery clickable and zoom on click
