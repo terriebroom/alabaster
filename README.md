@@ -1,29 +1,29 @@
 alabaster_incense
 To do list:
 - [x] Ad space - animation
-- [ ] Better and full description for homepage. Tell what the blog is all about
+- [ ] Better and full description for homepage. Tell what the blog is all about. Maybe include in about us?
 - [ ] Add more ad space. Try to put in different columns
-- [ ] Consider making hero image smaller
+- [ ] Consider making hero image smaller for sub pages
 - [ ] More content on home page
 - [ ] We need an email address
 - [ ] Consider adding French translation option
-- [ ] Readers could subscribe for free. This will draw more traffic. 
+- [ ] Readers could subscribe for free. This will draw more traffic. Add to main page
 
 Column ideas:
-- [ ] Gardening tips
-- [ ] Healthy eating tips
-- [ ] Event planning ad
-- [ ] Foundation
+- [x] Gardening tips
+- [x] Healthy eating tips
+- [x] Event planning ad
+- [x] Foundation
 
 Nav bar:
-- [ ] Kitchen
+- [x] Kitchen
 - [ ] Event planning
 - [ ] Foundation
-- [ ] Gallery
-- [ ] Resources - products and services
-- [ ] Contact us - email and location and main website link
-- [ ] About us
+- [x] Gallery
+- [x] Resources - products and services
+- [x] Contact us - email and location and main website link
+- [x] About us
 
 Home page:
-- [ ] Links to content
-- [ ] make photos in gallery clickable and large on click 
+- [x] Links to content
+- [x] make photos in gallery clickable and large on click 
