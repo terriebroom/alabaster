@@ -52,6 +52,14 @@ html, body {
     min-height: 10%;
     z-index: 2; 
 }
+.hero-image4 { /* hero image for health page */
+    height: 100%;
+    width: 1920px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/cavern.jpg');
+    background-size: cover;
+    min-height: 10%;
+    z-index: 2; 
+}
 /* slogan */
 .slogan, .h1, .p {
   color: #f5e9dc;
