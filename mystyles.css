@@ -29,20 +29,28 @@ html, body {
     height: 58px; 
     opacity: .2;
 }
-.hero-image { /*hero image*/
+.hero-image { /*hero image for index*/
     height: 100%; 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/alabaster_pour.jpg');
     background-size: cover;
     min-height: 10%;
     z-index: 2; /* z-index refers to property of stacked element. */
 }
-.hero-image2 { 
+.hero-image2 { /* hero image for foundation */
     height: 100%;
     width: 1920px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/stone.png');
     background-size: cover;
     min-height: 10%;
-    z-index: 2; /* z-index refers to property of stacked element. */
+    z-index: 2; 
+}
+.hero-image3 { /* hero image for event page */
+    height: 100%;
+    width: 1920px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/alabaster_oil2.jpg');
+    background-size: cover;
+    min-height: 10%;
+    z-index: 2; 
 }
 /* slogan */
 .slogan, .h1, .p {
