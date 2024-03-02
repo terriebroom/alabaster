@@ -29,5 +29,6 @@ Home page:
 
 Gallery page:
 - [ ] Make photos in gallery clickable and zoom on click
+  
 
 - [ ] Create missing pages that link from homepage
