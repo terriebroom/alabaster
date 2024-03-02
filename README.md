@@ -1,10 +1,10 @@
 alabaster_incense
 To do list:
 - [x] Ad space - animation
-- [ ] Better and full description for homepage. Tell what the blog is all about. Maybe include in about us?
+- [x] Better and full description for homepage. Tell what the blog is all about. Maybe include in about us?
 - [ ] Add more ad space. Try to put in different columns
 - [ ] Consider making hero image smaller for sub pages
-- [ ] More content on home page
+- [x] More content on home page
 - [ ] We need an email address
 - [ ] Consider adding French translation option
 - [ ] Readers could subscribe for free. This will draw more traffic. Add to main page
@@ -28,4 +28,6 @@ Home page:
 - [x] Links to content 
 
 Gallery page:
-- [ ] make photos in gallery clickable and zoom on click
+- [ ] Make photos in gallery clickable and zoom on click
+
+- [ ] Create missing pages that link from homepage
