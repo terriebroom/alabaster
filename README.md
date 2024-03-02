@@ -32,3 +32,4 @@ Gallery page:
   
 
 - [ ] Create missing pages that link from homepage
+- [ ] Fix subscription page navigation bar
