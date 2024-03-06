@@ -35,12 +35,12 @@ form {
 } 
   
 p { 
-    color: #85B4B4; 
+    color: #674C47; 
 } 
   
 .msg { 
     display: none; 
-    color: green; 
+    color: #674C47; 
     margin-top: 40px; 
 } 
   
@@ -49,7 +49,7 @@ input[type="email"] {
     width: 65%; 
     padding: 12px; 
     margin-bottom: 15px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #b8aa9c; 
     border-radius: 7px; 
 } 
   
