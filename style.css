@@ -1,13 +1,13 @@
 /* style.css */
 body { 
-    font-family: Arial, sans-serif; 
-    background-color: #f2f2f2; 
+    font-family: 'Helvetica', sans-serif; 
+    background-color: #f5e9dc; 
     margin: 0; 
     padding: 0; 
 } 
   
 .card { 
-    background-color: #ffffff; 
+    background-color: #ccbfbc; 
     border-radius: 10px; 
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4); 
     padding: 50px; 
@@ -23,7 +23,7 @@ body {
 } 
   
 h2 { 
-    color: #36b75a; 
+    color: #674C47; 
     margin-bottom: 10px; 
 } 
   
@@ -35,7 +35,7 @@ form {
 } 
   
 p { 
-    color: #666; 
+    color: #85B4B4; 
 } 
   
 .msg { 
@@ -54,8 +54,8 @@ input[type="email"] {
 } 
   
 button { 
-    background-color: crimson; 
-    color: #fff; 
+    background-color: tan; 
+    color: #674C47; 
     padding: 10px 10px; 
     margin-top: 5px; 
     border: none; 
@@ -65,5 +65,5 @@ button {
 } 
   
 button:hover { 
-    background-color: #65686b; 
+    background-color: #b8aa9c; 
 }
