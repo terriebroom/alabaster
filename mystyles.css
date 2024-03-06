@@ -222,7 +222,7 @@ min-height: 100vh;
 
 /* footer container */
 .footer-container {
-    position: relative;
+    position: absolute;
     min-width: 100vh;
     padding-top: 190px;
     display: block; /* behaviour of the element */
@@ -237,7 +237,6 @@ footer { /*footer*/
     right: 0;
     padding: 17px;  
     width: 100%; 
-
     background-color: #d2b48c;/*Footer background colour*/
     color: #593402; 
     font-family: 'Helvetica';
@@ -253,7 +252,7 @@ footer img {
 /* footer responsive media query */
 @media all and (max-width: 580px) {
   .footer-container {
-    position: relative;
+    position: absolute;
     top: 0%;
     left: -10%;  
     transform: translate(-10%, 0%); /* Source w3schools. */
