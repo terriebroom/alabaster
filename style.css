@@ -6,7 +6,7 @@ body {
     padding: 0; 
 } 
   
-.card { 
+.card12 { 
     background-color: #ccbfbc; 
     border-radius: 10px; 
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4); 
@@ -15,7 +15,7 @@ body {
     max-width: 400px; 
 } 
   
-.container { 
+.container12 { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
