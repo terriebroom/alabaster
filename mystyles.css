@@ -27,8 +27,9 @@ html, body {
 /* logo image */ 
 .logo img {
     height: 58px; 
-    opacity: .2;
+    opacity: 1;
 }
+
 .hero-image { /*hero image for index*/
     height: 100%; 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/alabaster_pour.jpg');
@@ -308,6 +309,66 @@ footer img {
   margin-top:64px;
   margin-bottom:200px;
   
+}
+/*Subscribe Page*/
+.card12 { 
+    background-color: #ccbfbc; 
+    border-radius: 10px; 
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4); 
+    padding: 50px; 
+    text-align: center; 
+    max-width: 400px; 
+} 
+  
+.container12 { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
+  
+h2 { 
+    color: #674C47; 
+    margin-bottom: 10px; 
+} 
+  
+  
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+  
+p { 
+    color: #674C47; 
+} 
+  
+.msg { 
+    display: none; 
+    color: #674C47; 
+    margin-top: 40px; 
+} 
+input[type="email"] { 
+    width: 65%; 
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #b8aa9c; 
+    border-radius: 7px; 
+} 
+  
+button { 
+    background-color: tan; 
+    color: #674C47; 
+    padding: 10px 10px; 
+    margin-top: 5px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.4s ease; 
+} 
+  
+button:hover { 
+    background-color: #b8aa9c; 
 }
 /*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
 div.card {
