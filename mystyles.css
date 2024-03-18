@@ -321,7 +321,7 @@ footer img {
 } 
   
 .container12 { 
-    display: flex; 
+    display: absolute; 
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
