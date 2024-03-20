@@ -369,7 +369,7 @@ button:hover {
 }
 /*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
 div.card {
-  float: left;
+  float: center;
   width: 25%;
   height: 100%;
   padding: 0 8px;
