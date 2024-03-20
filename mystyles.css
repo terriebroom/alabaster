@@ -312,6 +312,7 @@ footer img {
 }
 /*Subscribe Page*/
 .card12 { 
+    float: center;
     background-color: #ccbfbc; 
     border-radius: 10px; 
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4); 
@@ -321,6 +322,7 @@ footer img {
 } 
   
 .container12 { 
+    float: center;
     display: absolute; 
     justify-content: center; 
     align-items: center; 
