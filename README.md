@@ -33,3 +33,4 @@ Gallery page:
 
 - [ ] Create missing pages that link from homepage
 - [ ] Fix subscription page navigation bar
+- [ ] Kitchen page - Matthew 4:4 or Luke 4:4 - "Man shall not live by bread alone but by every word that proceedeth out of the mouth of God."
