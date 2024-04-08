@@ -94,6 +94,22 @@ html, body {
     min-height: 10%;
     z-index: 2; 
 }
+.hero-image9 { /* hero image for products */
+    height: 100%;
+    width: 1920px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/product.jpg');
+    background-size: cover;
+    min-height: 10%;
+    z-index: 2; 
+}
+.hero-image10 { /* hero image for service */
+    height: 100%;
+    width: 1920px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/service.jpg');
+    background-size: cover;
+    min-height: 10%;
+    z-index: 2; 
+}
 /* slogan */
 .slogan, .h1, .p {
   color: #f5e9dc;
