@@ -28,9 +28,10 @@ Home page:
 - [x] Links to content 
 
 Gallery page:
-- [ ] Make photos in gallery clickable and zoom on click
+- [ ] Make photos in gallery clickable and zoom on click.
+- [ ] Fix gallery page
   
 
-- [ ] Create missing pages that link from homepage
+- [x] Create missing pages that link from homepage
 - [ ] Fix subscription page navigation bar
-- [ ] Kitchen page - Matthew 4:4 or Luke 4:4 - "Man shall not live by bread alone but by every word that proceedeth out of the mouth of God."
+- [x] Kitchen page - Matthew 4:4 or Luke 4:4 - "Man shall not live by bread alone but by every word that proceedeth out of the mouth of God."
