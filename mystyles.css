@@ -118,20 +118,7 @@ html, body {
     min-height: 10%;
     z-index: 2; 
 }
-.gallery { /* gallery images animation*/
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  align-content: center;
-  object-position: center;
-  transition: transform ease-in-out 0.5s;
-
-  z-index: 1;
-  transform: scale(1.5);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* gallery images animation*/
 /*This contains the gallery section contents*/
 .textalign {
   text-align: center;
