@@ -159,8 +159,8 @@ div.desc {
 }
 .column {
   float: left;
-  width: 50%;
-  padding: 10px;
+  width: 33.33%;
+  padding: 0 6px;
   display: block;
 }
 .row {
