@@ -176,19 +176,19 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 100%;
+  width: 33.33%;
 }
 
 @media only screen and (max-width: 1920px) {
   .responsive {
-    width: 100%;
+    width: 33.33%;
     margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
-    width: 100%;
+    width: 50%;
   }
 }
 /* Clears floats and exits after image zoom and fullscreen */
