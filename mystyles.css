@@ -164,7 +164,7 @@ div.desc {
 }
 .column {
   float: left;
-  width: 50%;
+  width: 33.33%;
   padding: 0 8px;
   display: block;
   
@@ -178,6 +178,31 @@ div.desc {
   content: "";
   clear: both;
   display: table;
+}
+/* makes image zoom and full screen on click */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1920px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+/* Clears floats and exits after image zoom and fullscreen */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* slogan */
 .slogan, .h1, .p {
