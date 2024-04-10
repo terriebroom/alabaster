@@ -130,19 +130,16 @@ html, body {
 }
 /*To give the images their dimensions and positions*/
 div.gallery {
-  margin: 5px;
-  float: left;
-  width: 100%;
-  padding: 5px;
+  border: 1px solid #d9b18c;
 }
 /*To give the images animations and appearance*/
 div.gallery:hover {
-  border: 5px solid #d9b18c;
+  border: 3px solid #d9b18c;
 }
 
 div.gallery img {
   width: 100%;
-  
+  height: auto;
 }
  div.gallery img:hover {
     transform: scaleX(+1);
@@ -155,10 +152,7 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
-
-/* Two image container */
-
+/* Three image container */
 * {
   box-sizing: border-box;
 }
@@ -167,12 +161,10 @@ div.desc {
   width: 33.33%;
   padding: 0 8px;
   display: block;
-  
 }
 .row {
   padding: 0 16px;
 }
-
 /* Clear floats after image containers */
 .row::after {
   content: "";
