@@ -159,7 +159,7 @@ div.desc {
 }
 .column {
   float: left;
-  width: 100%;
+  width: 33.33%;
   padding: 0 6px;
   display: block;
 }
@@ -176,7 +176,7 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 33.33%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1920px) {
