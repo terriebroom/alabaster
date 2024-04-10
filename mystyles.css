@@ -159,15 +159,15 @@ div.desc {
 }
 .column {
   float: left;
-  width: 25%;
-  padding: 0 8px;
+  width: 33.33%;
+  padding: 10px;
   display: block;
 }
 .row {
   padding: 0 16px;
 }
 /* Clear floats after image containers */
-.row::after {
+.row:after {
   content: "";
   clear: both;
   display: table;
@@ -176,12 +176,12 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1920px) {
   .responsive {
-    width: 50%;
+    width: 100%;
     margin: 6px 0;
   }
 }
