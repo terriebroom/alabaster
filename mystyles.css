@@ -159,12 +159,16 @@ div.desc {
 }
 .column {
   float: left;
-  width: 33.33%;
-  padding: 0px;
+  width: 33.33px;
+  padding: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
   display: block;
 }
 .row {
-  padding: 0px;
+  padding: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 /* Clear floats after image containers */
 .row:after {
