@@ -159,12 +159,12 @@ div.desc {
 }
 .column {
   float: left;
-  width: 16.66%;
-  padding: 0 6px;
+  width: 33.33%;
+  padding: 0px;
   display: block;
 }
 .row {
-  padding: 0 16px;
+  padding: 0px;
 }
 /* Clear floats after image containers */
 .row:after {
@@ -174,7 +174,7 @@ div.desc {
 }
 /* makes image zoom and full screen on click */
 .responsive {
-  padding: 0 6px;
+  padding: 0px;
   float: left;
   width: 100%;
 }
@@ -182,7 +182,6 @@ div.desc {
 @media only screen and (max-width: 1920px) {
   .responsive {
     width: 33.33%;
-    margin: 6px 0;
   }
 }
 
