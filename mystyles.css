@@ -139,7 +139,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 33.33%;
+  width: 100%;
   height: auto;
 }
  div.gallery img:hover {
@@ -176,7 +176,7 @@ div.desc {
 .responsive {
   padding: 1px;
   float: left;
-  width: 100%;
+  width: 33.33%;
   height: 641.91px;
 }
 
