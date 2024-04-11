@@ -174,7 +174,7 @@ div.desc {
 }
 /* makes image zoom and full screen on click */
 .responsive {
-  padding: 0 6px;
+  padding: 1px;
   float: left;
   width: 100%;
   height: 641.91px;
