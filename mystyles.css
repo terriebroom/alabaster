@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /* Alabaster Incense. 2024-02-19 */
 * {
@@ -177,13 +178,13 @@ div.desc {
   padding: 1px;
   float: left;
   width: 33.33%;
+  height: 641.91px;
 }
 
 @media only screen and (max-width: 1920px) {
   .responsive {
     width: 33.33%;
     margin: 6px 0;
-    background-color: #d9b18c;
   }
 }
 
@@ -207,7 +208,7 @@ div.desc {
   top: 50%; 
   left: 50%;  
   width: 100%; 
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* Source w3schools. */
   z-index: 3; /* z-index refers to property of stacked element. */
 }
 
@@ -472,64 +473,7 @@ button {
   
 button:hover { 
     background-color: #b8aa9c; 
-}
-/*Each team member's column (card) has its own card for ease of editing and updating based on contents*/
-div.card {
-  float: center;
-  width: 25%;
-  height: 100%;
-  padding: 0 8px;
-  display: block;
-  margin-bottom: -200px;
-}
-div.card1 {
-  background-color: #85B4B4;
-  height: 500px;
 } 
-
-div.card2 {
-  width: 100%;
-  height: 100%;
-}
-/*Gaps provide equal spacing for each card*/
-div.cardgap1 {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 50px;
-}
-div.cardgap2 {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 30px;
-}
-div.cardgap3 {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 100px;
-}
-div.cardgap4 {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 98px;
-}
-/*This gives the heading for each section of the teams and projects pages their own style*/
-.team {
-  font-family: 'Helvetica', sans-serif;
-}
-/* Main css for the text alignment in the about page */
-div.who {
-  text-align: left;
-  font-weight: bold;
-  width: 75%;
-  display: block;
-  line-height: 2.0; 
-  margin: 5%;
-  padding-left: 12%;
-  padding-top: 0.5%;
-  padding-right: 12%;
-  background: rgba(210,248,210, 0.1);
-  background-position:center;  
-}  
 
 /* top nav class */
 .topnav {
