@@ -177,13 +177,13 @@ div.desc {
   padding: 1px;
   float: left;
   width: 33.33%;
-  height: 641.91px;
 }
 
 @media only screen and (max-width: 1920px) {
   .responsive {
     width: 33.33%;
     margin: 6px 0;
+    background-color: #d9b18c;
   }
 }
 
@@ -207,7 +207,7 @@ div.desc {
   top: 50%; 
   left: 50%;  
   width: 100%; 
-  transform: translate(-50%, -50%); /* Source w3schools. */
+  transform: translate(-50%, -50%);
   z-index: 3; /* z-index refers to property of stacked element. */
 }
 
