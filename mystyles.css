@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 /* Alabaster Incense. 2024-02-19 */
 * {
@@ -179,6 +178,7 @@ div.desc {
   float: left;
   width: 33.33%;
   height: 641.91px;
+  background-color: #d9b18c;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -275,7 +275,7 @@ div.desc {
     position: absolute; 
     top: 80%; 
     left: 50%; 
-    transform: translate(-50%, -80%); /* Source w3schools. */
+    transform: translate(-50%, -80%);
 }
 
 /* media query for button arrow class */ 
@@ -285,7 +285,7 @@ div.desc {
       padding-top: 25%;
       top: 70%;
       left: 50%;  
-      transform: translate(-50%, -70%); /* Source w3schools. */
+      transform: translate(-50%, -70%);
     }
 }
 
@@ -296,7 +296,7 @@ div.desc {
     padding-top: 25%;
     top: 72%;
     left: 50%;  
-    transform: translate(-50%, -72%); /* Source w3schools. */
+    transform: translate(-50%, -72%);
   }
 }
 
@@ -329,7 +329,7 @@ min-height: 100vh;
 
 /* footer container */
 .footer-container {
-    position: relative;
+    position: absolute;
     min-width: 100vh;
     padding-top: 190px;
     display: block; /* behaviour of the element */
