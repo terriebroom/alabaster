@@ -360,7 +360,7 @@ footer img {
 /* footer responsive media query */
 @media all and (max-width: 580px) {
   .footer-container {
-    position: relative;
+    position: absolute;
     top: 0%;
     left: -10%;  
     transform: translate(-10%, 0%);
