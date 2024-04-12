@@ -337,7 +337,7 @@ min-height: 100vh;
 
 /* footer */
 footer { /*footer*/
-    position: fixed; 
+    position: absolute; 
     margin: 0; 
     bottom: 0; 
     left: 0; 
