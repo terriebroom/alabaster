@@ -363,9 +363,11 @@ footer img {
     position: relative;
     top: 0%;
     left: -10%;  
-    transform: translate(-10%, 0%); /* Source w3schools. */
+    transform: translate(-10%, 0%);
   }
 }
+
+/*miscellaneous - might use later*/
 .hide-icon {
   visibility:hidden;
 }
@@ -389,7 +391,6 @@ footer img {
 .rw-row-padding{
   padding:0 8px
   }
-/*miscellaneous - might use later*/
 .w3-sidebar.w3-bar-block.w3-black.w3-card.w3-animate-left.w3-hide-medium.w3-hide-large {
   display:none;
 }
@@ -402,6 +403,7 @@ footer img {
   margin-bottom:200px;
   
 }
+
 /*Subscribe Page*/
 .card12 { 
     float: center;
