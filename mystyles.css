@@ -166,31 +166,31 @@ div.desc {
 .row {
   padding: 0 16px;
 }
-/* Clear floats after image containers */
+/* Clear floats after image rows */
 .row:after {
   content: "";
   clear: both;
   display: table;
 }
-/* makes image zoom and full screen on click */
 .responsive {
   padding: 1px;
   float: left;
   width: 33.33%;
   height: 641.91px;
-  background-color: #d9b18c;
 }
-
+/* makes image zoom and full screen on click */
 @media only screen and (max-width: 1920px) {
   .responsive {
     width: 33.33%;
     margin: 6px 0;
+    background-color: #d9b18c;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 50%;
+    background-color: #d9b18c;
   }
 }
 /* Clears floats and exits after image layout container */
@@ -208,7 +208,7 @@ div.desc {
   top: 50%; 
   left: 50%;  
   width: 100%; 
-  transform: translate(-50%, -50%); /* Source w3schools. */
+  transform: translate(-50%, -50%);
   z-index: 3; /* z-index refers to property of stacked element. */
 }
 
@@ -329,7 +329,7 @@ min-height: 100vh;
 
 /* footer container */
 .footer-container {
-    position: absolute;
+    position: relativee;
     min-width: 100vh;
     padding-top: 190px;
     display: block; /* behaviour of the element */
@@ -360,7 +360,7 @@ footer img {
 /* footer responsive media query */
 @media all and (max-width: 580px) {
   .footer-container {
-    position: absolute;
+    position: relative;
     top: 0%;
     left: -10%;  
     transform: translate(-10%, 0%);
